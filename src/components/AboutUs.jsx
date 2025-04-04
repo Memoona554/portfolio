@@ -9,7 +9,7 @@ function AboutUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="flex justify-center lg:justify-start " data-aos="fade-right" data-aos-delay="100">
             <div className="about-banner text-center" >
-              <img src="banner-image.jpeg" alt="Thumb" className="lg:w-full lg:mx-0 mx-auto w-[90%] xl:h-[80] h-auto object-contain rounded-xl shadow-lg" />
+              <img src="banner-image.jpeg" alt="Thumb" className="lg:w-full lg:mx-0 mx-auto w-[90%]  h-auto object-contain rounded-xl shadow-lg" />
             </div>
           </div>
 
