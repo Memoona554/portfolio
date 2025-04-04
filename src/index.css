@@ -1,0 +1,107 @@
+/* slick-carousel styles */
+/* slick-carousel styles */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import "tailwindcss";
+
+
+:root {
+  --px-theme-rgb: 7, 136, 255; /* Correct RGB format */
+}
+*{
+  box-sizing: border-box;
+}
+#root{
+  overflow: hidden;
+}
+.r-box {
+  background: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+  color: white; 
+}
+.rotate-effect {
+  animation: rotate360 40s linear infinite; 
+  position: absolute;
+  top: 10;
+  right: 10;
+  z-index: -1;
+}
+
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg); 
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
+}
+.effect-1 {
+  animation: rotate360 40s linear infinite reverse; 
+  position: absolute;
+  bottom: -70px; 
+  left: 10;  
+  z-index: -1;  
+}
+
+
+
+swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* overflow: visible !important; */
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+.swiper-slide {
+  text-align: start;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 999px;
+  margin: 0 6px;
+  border: 1px solid white !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 10px !important;
+  background: var(--px-theme, #0788ff) !important;
+  opacity: 1 !important;
+  border-radius: 999px !important;
+}
+
+@keyframes float {
+  0%   { transform: translateX(0px); }
+  25%  { transform: translateX(10px); }
+  50%  { transform: translateX(20px); }
+  75%  { transform: translateX(10px); }
+  100% { transform: translateX(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
