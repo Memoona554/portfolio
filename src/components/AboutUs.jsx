@@ -2,24 +2,22 @@ import React from 'react';
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 function AboutUs() {
+
   return (
     <div id="about" className="relative flex items-center justify-center py-24">
       <div className="lg:w-[95%] 2xl:w-[80%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div className="flex justify-center lg:justify-start aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
-            <div className="about-banner text-center" data-aos="fade-up"
-              data-aos-delay="200">
+          <div className="flex justify-center lg:justify-start " data-aos="fade-right" data-aos-delay="100">
+            <div className="about-banner text-center" >
               <img src="banner-image.jpeg" alt="Thumb" className="lg:w-full lg:mx-0 mx-auto w-[90%] xl:h-[80] h-auto object-contain rounded-xl shadow-lg" />
             </div>
           </div>
 
-          <div className="px-5 lg:px-10 2xl:pt-10 aos-init aos-animate" data-aos="fade" data-aos-duration="1200" data-aos-delay="400">
-            <h6 className="mb-3 2xl:mb-7" data-aos="fade-up"
-              data-aos-delay="200">
+          <div className="px-5 lg:px-10 2xl:pt-10 " data-aos="fade" data-aos-delay="200">
+            <h6 className="mb-3 2xl:mb-7" >
               <span className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">About Us</span>
             </h6>
-            <h2 className="xl:text-3xl text-3xl text-white 2xl:mb-4 lg:text-[1.5rem] font-bold mt-2" data-aos="fade-up"
-              data-aos-delay="300">
+            <h2 className="xl:text-3xl text-3xl text-white 2xl:mb-4 lg:text-[1.5rem] font-bold mt-2" >
               I AM AVAILABLE FOR <span className="text-[#0788ff]">UI/UX DESIGN</span> AND DEVELOPMENT
             </h2>
             <p className="mt-5 text-justify text-white 2xl:mb-5" data-aos="fade-up"

@@ -191,8 +191,6 @@ const RecentProjects = () => {
                                     <li><strong>Type:</strong> {selectedProject.type}</li>
                                     <li><strong>Languages:</strong> {selectedProject.languages}</li>
                                     <li><strong>Platform:</strong> {selectedProject.platform}</li>
-                                    <li><strong>Country:</strong> {selectedProject.country}</li>
-                                    <li><strong>Live URL:</strong> <a href={`https://${selectedProject.liveUrl}`} target="_blank" rel="noreferrer" className="text-blue-500 underline">{selectedProject.liveUrl}</a></li>
                                 </ul>
                             </div>
                         </div>
