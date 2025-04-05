@@ -21,11 +21,11 @@ const projects = [
     {
         id: 2,
         title: 'Kombo',
-        subtitle: 'Chrome Extensions',
+        subtitle: 'Chrome Extension',
         image: '/pro_2.png',
         detailImage: '/pro_2.png',
         description: `A chrome extension designed to enhance the productivity of sales professionals by providing AI-powered assistance with calling and emailing prospects. We are committed to protecting the privacy of our users and ensuring the safety of their personal data.`,
-        type: 'Website',
+        type: 'Chrome Extension',
         languages: 'React.js Python',
         platform: 'Custom ',
         country: 'Barcelona, Catalonia, Spain',
