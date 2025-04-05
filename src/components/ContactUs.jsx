@@ -35,12 +35,12 @@ const ContactUs = () => {
                         <div className="lg:w-1/3">
                             <div className="space-y-4 lg:pt-40 xl:pt-[60%]">
                                 <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">
-                                    <label className="block text-sm text-gray-100">Write an e-mail</label>
-                                    <a href="mailto:sample@domain.com" className="text-blue-600 hover:underline">sample@domain.com</a>
+                                    <label className="block text-sm text-gray-100"> E-mail</label>
+                                    <a href="javedadeel52@gmail.com" className="text-blue-600 hover:underline">javedadeel52@gmail.com</a>
                                 </div>
                                 <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                                     <label className="block text-sm text-gray-100">Call us</label>
-                                    <a href="tel:+044969696963636" className="text-blue-600 hover:underline">+044 9696 9696 3636</a>
+                                    <a href="tel:+92 322 4218770" className="text-blue-600 hover:underline">+92 322 4218770</a>
                                 </div>
                                 <div className="flex space-x-4 pt-4" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
                                     <div className="flex gap-4 text-gray-500 justify-center sm:justify-start" data-aos="zoom-in" data-aos-delay="600">

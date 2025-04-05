@@ -64,7 +64,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
     return (
-        <div className="relative container mx-auto 2xl:w-full   lg:py-16  effect-section" data-aos="fade-up"
+        <section id='testimonial' className="relative container mx-auto 2xl:w-full   lg:py-16  effect-section" data-aos="fade-up"
         data-aos-delay="100">
             <div className=" lg:block hidden absolute top-[15%] left-[18%] w-[140px] animate-float z-0">
                 <img src="/effect-3.svg" alt="Effect" />
@@ -80,7 +80,7 @@ export default function TestimonialSection() {
                     </h6>
                     <h2 data-aos="fade-up"
                                 data-aos-delay="200" className="text-3xl md:text-4xl font-bold text-white">
-                        Over <span className="text-blue-500">8,000+</span> <br /> PEOPLE TRUST ME
+                        Over <span className="text-blue-500">1,000+</span> <br /> PEOPLE TRUST ME
                     </h2>
                 </div>
 
@@ -113,7 +113,7 @@ export default function TestimonialSection() {
             <div className="lg:block hidden absolute top-0 right-0  z-0">
                 <img src="/effect-4.svg" alt="Effect" className="w-full h-full object-cover" />
             </div>
-        </div>
+        </section>
 
     );
 }

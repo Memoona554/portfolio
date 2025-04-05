@@ -9,14 +9,14 @@ const projects = [
         id: 1,
         title: 'Vividly SRL',
         subtitle: 'Web Design & Development',
-        image: '/....',
-        detailImage: '/....',
-        description: `An Innovative AI Startup. Vividly aims to use the power of Artificial Intelligence to unlock and enhance the most human qualities.`,
+        image: '/pro_1.png',
+        detailImage: '/Pro_1.png',
+        description: `Designed scalable and efficient software architectures using PHP, Laravel, Vue.js, Tailwind CSS, and Azure to build robust and maintainable applications. Ensured software reliability by writing comprehensive tests and debugging code thoroughly. Applied machine learning techniques to design, train, and optimize models for real-world applications, while implementing scalable AI solutions seamlessly integrated into existing systems. Managed code effectively through version control tools like Git, SVN, and Mercurial. Provided leadership and mentorship to junior developers, fostering a collaborative and growth-oriented environment. Committed to continuous learning and staying up to date with the latest technologies and methodologies, including agile development practices.`,
         type: 'Website',
-        languages: 'PHP, Python, Vue.js',
+        languages: 'PHP,Laravel,Software Development, Git, Devs Ops,LLM,Embading,Agents,Retrieval-Augmented Generation (RAG), Python, Vue.js',
         platform: 'Custom ',
         country: 'Italy',
-        liveUrl: 'www.example.com',
+        liveUrl: 'https://vividly.it/',
     },
     {
         id: 2,
@@ -29,59 +29,59 @@ const projects = [
         languages: 'React.js Python',
         platform: 'Custom ',
         country: 'Barcelona, Catalonia, Spain',
-        liveUrl: 'www.example.com',
+        liveUrl: 'https://getkombo.ai/',
     },
-    {
-        id: 3,
-        title: 'Blendgate',
-        subtitle: 'B2B Market Network',
-        image: '/',
-        detailImage: '/',
-        description: `Blendgate is a next generation B2B marketplace to procure and manage technology consulting services for small and medium businesses.`,
-        type: 'Website',
-        languages: 'JS, MERN stack, Algorithms, Agile Methodologies,Front End Development',
-        platform: 'Custom ',
-        country: 'Barcelona, Catalonia, Spain',
-        liveUrl: 'www.example.com',
-    },
+    // {
+    //     id: 3,
+    //     title: 'Blendgate',
+    //     subtitle: 'B2B Market Network',
+    //     image: '/',
+    //     detailImage: '/',
+    //     description: `Blendgate is a next generation B2B marketplace to procure and manage technology consulting services for small and medium businesses.`,
+    //     type: 'Website',
+    //     languages: 'JS, MERN stack, Algorithms, Agile Methodologies,Front End Development',
+    //     platform: 'Custom ',
+    //     country: 'Barcelona, Catalonia, Spain',
+    //     liveUrl: 'www.example.com',
+    // },
     {
         id: 4,
         title: 'DexCheck',
         subtitle: 'B2B Market Network',
         image: '/pro_4.png',
         detailImage: '/pro_4.png',
-        description: `Blendgate is a next generation B2B marketplace to procure and manage technology consulting services for small and medium businesses.`,
-        type: 'Website',
-        languages: 'JS, MERN stack, Algorithms, Agile Methodologies,Front End Development',
+        description: `DexCheck is a state-of-the-art Crypto and NFT Analytics platform powered by AI, delivering real-time insights, intelligent alerts, and in-depth market analysis.`,
+        type: 'Web App',
+        languages: 'JavaScript · Node.js · MERN Stack · Smart Contracts · Solidity · Blockchain · Amazon Web Services (AWS)',
         platform: 'Custom ',
         country: '....',
-        liveUrl: 'www.example.com',
+        liveUrl: 'https://dexcheck.ai/app',
     },
-    {
-        id: 5,
-        title: 'Coinxpad',
-        subtitle: 'B2B Market Network',
-        image: '/...',
-        detailImage: '/...',
-        description: `CoinxPad is the first Cex / Dex Multi-chain IDO Launchpad. We raise funds for the just born crypto projects that are built on Ethereum, BSC, Solana, Polygon.`,
-        type: 'Website',
-        languages: ' MERN Stack · Solidity · Amazon Web Services (AWS) · Ethereum',
-        platform: 'Custom ',
-        country: '',
-        liveUrl: 'www.example.com',
-    },
+    // {
+    //     id: 5,
+    //     title: 'Coinxpad',
+    //     subtitle: 'B2B Market Network',
+    //     image: '/...',
+    //     detailImage: '/...',
+    //     description: `CoinxPad is the first Cex / Dex Multi-chain IDO Launchpad. We raise funds for the just born crypto projects that are built on Ethereum, BSC, Solana, Polygon.`,
+    //     type: 'Website',
+    //     languages: ' MERN Stack · Solidity · Amazon Web Services (AWS) · Ethereum',
+    //     platform: 'Custom ',
+    //     country: '',
+    //     liveUrl: 'www.example.com',
+    // },
     {
         id: 6,
         title: 'XANA',
-        subtitle: 'B2B Market Network',
+        subtitle: 'AI x Web 3.0 Metaverse',
         image: '/pro_6.png',
         detailImage: '/pro_6.png',
-        description: `CoinxPad is the first Cex / Dex Multi-chain IDO Launchpad. We raise funds for the just born crypto projects that are built on Ethereum, BSC, Solana, Polygon.`,
+        description: `Worked as a core developer on XANA, a cutting-edge Web 3.0 Metaverse platform that blends AI, social networking, and decentralized finance (SocialFi) to serve billions of users. Leveraged the MERN stack to develop responsive, user-centric web applications and integrated blockchain functionality using Solidity and smart contracts. Contributed to the creation and deployment of Non-Fungible Tokens (NFTs), enabling digital ownership and asset management within the metaverse. Collaborated closely with cross-functional teams to deliver a secure, scalable, and immersive experience, aligning with the project's vision of building a decentralized infrastructure for the next generation of digital interaction.`,
         type: 'Website',
         languages: 'MERN Stack · Smart Contracts · Solidity · Blockchain · Non-Fungible Tokens (NFTs)',
         platform: 'Custom ',
         country: '',
-        liveUrl: 'www.example.com',
+        liveUrl: 'https://xana.net/',
     },
 ];
 
@@ -156,10 +156,10 @@ const RecentProjects = () => {
                                         <h5 className="text-xl font-semibold">{project.title}</h5>
                                         <span className="text-gray-500">{project.subtitle}</span>
                                     </div>
-                                    <span className="absolute bottom-2 right-2 bg-blue-50 p-2 rounded-full">
+                                    <span className="absolute bottom-2 right-2  p-2 rounded-full">
                                         <button
                                             onClick={() => openModal(project)}
-                                            className="inline-flex gap-2 items-center font-medium px-5 py-4 bg-blue-500 uppercase text-white rounded-full transition"
+                                            className="inline-flex gap-2 items-center font-medium px-5 py-4 bg-blue-500 uppercase text-white rounded-full "
                                         >
                                             <HiOutlineArrowLongRight />
                                         </button>
@@ -191,6 +191,7 @@ const RecentProjects = () => {
                                     <li><strong>Type:</strong> {selectedProject.type}</li>
                                     <li><strong>Languages:</strong> {selectedProject.languages}</li>
                                     <li><strong>Platform:</strong> {selectedProject.platform}</li>
+                                    <li><strong>Live Url: </strong><a href={selectedProject.liveUrl} target='_blank'>{selectedProject.liveUrl}</a> </li>
                                 </ul>
                             </div>
                         </div>

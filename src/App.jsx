@@ -42,7 +42,7 @@ function App() {
       <div className='py-20'>
         <ExperienceSection />
       </div>
-      <div className='py-20'>
+      <div className=' py-10 lg:py-20'>
         <TestimonialSection />
       </div>
       <div className='lg:py-20 py-10'>
@@ -53,7 +53,7 @@ function App() {
 
         <div className="container mx-auto px-4">
           <p className="m-0 text-center text-white">
-            © 2023 copyright all rights reserved
+            © 2025 copyright all rights reserved
           </p>
         </div>
       </footer>

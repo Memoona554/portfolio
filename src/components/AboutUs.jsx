@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 function AboutUs() {
 
   return (
-    <div id="about" className="relative flex items-center justify-center py-24">
+    <section id="aboutus" className="relative flex items-center justify-center py-24">
       <div className="lg:w-[95%] 2xl:w-[80%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <div className="flex justify-center lg:justify-start " data-aos="fade-right" data-aos-delay="100">
@@ -38,7 +38,7 @@ function AboutUs() {
                 <label className="text-white">Years Experience</label>
               </div>
               <div className="r-box flex flex-col items-center text-center py-3 px-5 rounded-lg">
-                <h3 className="text-2xl font-semibold">49<span className="text-primary">+</span></h3>
+                <h3 className="text-2xl font-semibold">7<span className="text-primary">+</span></h3>
                 <label className="text-white">Awards</label>
               </div>
             </div>
@@ -76,7 +76,7 @@ function AboutUs() {
       </div>
 
 
-    </div>
+    </section>
 
   );
 }

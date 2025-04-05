@@ -28,17 +28,28 @@ function Header() {
   }, []);
 
   const handleLinkClick = (href) => {
-    setActiveLink(href); // Immediately update the active link
+    setActiveLink(href); 
     const section = document.querySelector(href);
     section.scrollIntoView({ behavior: "smooth" });
+  
+    window.history.pushState(null, null, href);
   };
+  
 
   const navItems = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
+    { name: "About", href: "#aboutus" },
     { name: "Projects", href: "#projects" },
     { name: "Services", href: "#services" },
     { name: "Contact", href: "#contact" },
+  ];
+  const navMobItems = [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#aboutus" },
+    { name: "Projects", href: "#projects" },
+    { name: "Services", href: "#services" },
+    { name: "Contact", href: "#contact" },
+    { name: "Experience", href: "#experience" },
   ];
 
   return (
@@ -48,19 +59,19 @@ function Header() {
     >
       <div className="lg:container lg:mx-auto px-4 py-4 flex lg:justify-around justify-between items-center">
         <div>
-          <a href="/">
+          <a href="#home">
             <h1 className='text-[2rem] tracking-[0.0625em] font-space text-white font-bold'>ADEEL JAVED</h1>
           </a>
         </div>
 
-        <nav className="hidden lg:flex text-white tracking-[0.0625em] space-x-6">
+        <nav className="hidden lg:flex text-white tracking-[0.0625em] lg:space-x-2 xl:space-x-6">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
               onClick={(e) => {
                 e.preventDefault();
-                handleLinkClick(item.href); // Immediately update active link on click
+                handleLinkClick(item.href); 
               }}
               className={`relative font-medium pb-1
         after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:bg-white after:w-full after:origin-left after:scale-x-0 after:transition-transform after:duration-300
@@ -74,10 +85,10 @@ function Header() {
 
         <div className="flex items-center space-x-3">
           <a
-            href="#contact"
+            href="#experience"
             className="hidden tracking-[0.0625em] cursor-pointer font-medium lg:inline-block px-9 py-4 bg-[rgb(var(--px-theme-rgb))] text-white rounded-[40px] transition"
           >
-            Let's Talk
+            Experience
           </a>
 
           <button
@@ -92,7 +103,7 @@ function Header() {
       </div>
       {menuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 flex flex-col bg-[#040c16] border-t border-white/20 shadow-md px-5 py-4 z-40 text-white space-y-4">
-          {navItems.map((item) => (
+          {navMobItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
