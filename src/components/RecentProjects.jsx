@@ -151,10 +151,10 @@ const RecentProjects = () => {
                                             </i>
                                         </span>
                                     </div>
-                                    <div className="project-body text-left p-4"
+                                    <div className="project-body text-left py-2"
                                     >
                                         <h5 className="text-xl font-semibold">{project.title}</h5>
-                                        <span className="text-gray-500">{project.subtitle}</span>
+                                        <span className="text-gray-500 whitespace-nowrap lg:text-sm 2xl:text-lg">{project.subtitle}</span>
                                     </div>
                                     <span className="absolute bottom-2 right-2  p-2 rounded-full">
                                         <button
