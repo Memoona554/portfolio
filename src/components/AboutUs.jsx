@@ -15,7 +15,7 @@ function AboutUs() {
 
           <div className="px-5 lg:px-10 2xl:pt-10 " data-aos="fade" data-aos-delay="200">
             <h6 className="mb-3 2xl:mb-7" >
-              <span className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">About Us</span>
+              <span className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">About</span>
             </h6>
             <h2 className="xl:text-3xl text-3xl text-white 2xl:mb-4 lg:text-[1.5rem] font-bold mt-2" >
               I AM AVAILABLE FOR <span className="text-[#0788ff]">UI/UX DESIGN</span> AND DEVELOPMENT
@@ -36,10 +36,6 @@ function AboutUs() {
               <div className="r-box flex flex-col items-center text-center py-3 px-5 rounded-lg">
                 <h3 className="text-2xl font-semibold">7<span className="text-primary">+</span></h3>
                 <label className="text-white">Years Experience</label>
-              </div>
-              <div className="r-box flex flex-col items-center text-center py-3 px-5 rounded-lg">
-                <h3 className="text-2xl font-semibold">7<span className="text-primary">+</span></h3>
-                <label className="text-white">Awards</label>
               </div>
             </div>
 

@@ -10,13 +10,6 @@ const HomeSection = () => {
                 <div className="flex flex-col gap-5 lg:flex-row items-center justify-around">
                     <div className="lg:w-[60%] xl:w-1/2 mb-10 lg:mb-0">
                         <div className="space-y-4">
-                            <h6
-                                className=""
-                                data-aos="fade-up"
-                                data-aos-delay="100"
-                            >
-                                <span className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">ADEEL JAVED</span>
-                            </h6>
                             <h1
                                 className="lg:text-5xl text-3xl font-bold uppercase text-white "
                                 data-aos="fade-up"

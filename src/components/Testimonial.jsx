@@ -1,7 +1,7 @@
 import React from 'react';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination,Autoplay } from 'swiper/modules';
 
 const testimonials = [
     {
@@ -203,14 +203,15 @@ export default function TestimonialSection() {
                     </h6>
                     <h2 data-aos="fade-up"
                                 data-aos-delay="200" className="text-3xl md:text-4xl font-bold text-white">
-                        Over <span className="text-blue-500">1,000+</span> <br /> PEOPLE TRUST ME
+                        Over <span className="text-blue-500">70+</span> <br /> PEOPLE TRUST ME
                     </h2>
                 </div>
 
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={1}
-                    modules={[Pagination]}
+                    modules={[Pagination,Autoplay]}
+                    autoplay={{ delay: 10000, disableOnInteraction: false }}
                     pagination={{ clickable: true }}
                     className="!pb-10"
                 >

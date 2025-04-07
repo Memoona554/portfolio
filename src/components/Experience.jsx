@@ -152,7 +152,6 @@ const ExperienceSection = () => {
 
                                     <div className="md:col-span-8 lg:col-span-9">
                                         <div>
-                                            <h5 className="text-lg font-semibold text-white mb-2">About Experience</h5>
                                             <p className="text-sm text-gray-100 text-justify">{exp.about}</p>
                                         </div>
                                     </div>
