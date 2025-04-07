@@ -13,10 +13,10 @@ const testimonials = [
     },
     {
         id: 2,
-        image: '/images.jpg',
-        text: "Adeel is a committed talented professional who knows how to manage a team in the best way possible. In other words, not even he has a very strong technical skills set, but also he is emotionally intelligent: all you can ask from a team leader. I am glad to work with him and to have a possibility to grow in a team led by Adeel.",
-        name: 'Atefe Fahimi',
-        company: 'Frontend Developer '
+        image: '/avatar_5.jpeg',
+        text: "Working with Adeel is a pleasure. He's incredibly reliable, and you can count on him to deliver top-notch work. He's a true professional. Adeel has successfully taught professors from various countries and universities and managed to captivate everyone's interest during his lectures. What truly sets him apart is his remarkable ability to engage the audience and hold their attention until the very end. His extensive and solid background makes Adeel's presentations even more valuable. When he shares his personal experiences, the information takes on a whole new depth, making it highly valuable and relatable. It's not just about the abundance of information; it's about how Adeel seamlessly incorporates his insights, enriching and unforgettable the learning experience.I believe we'll cross paths again!",
+        name: 'Aigerim Gilmanova',
+        company: 'Technical Documentation '
     },
     {
         id: 3,
@@ -27,11 +27,12 @@ const testimonials = [
     },
     {
         id: 4,
-        image: '/avatar_5.jpeg',
-        text: "Working with Adeel is a pleasure. He's incredibly reliable, and you can count on him to deliver top-notch work. He's a true professional. Adeel has successfully taught professors from various countries and universities and managed to captivate everyone's interest during his lectures. What truly sets him apart is his remarkable ability to engage the audience and hold their attention until the very end. His extensive and solid background makes Adeel's presentations even more valuable. When he shares his personal experiences, the information takes on a whole new depth, making it highly valuable and relatable. It's not just about the abundance of information; it's about how Adeel seamlessly incorporates his insights, enriching and unforgettable the learning experience.I believe we'll cross paths again!",
-        name: 'Aigerim Gilmanova',
-        company: 'Technical Documentation '
+        image: '/images.jpg',
+        text: "Adeel is a committed talented professional who knows how to manage a team in the best way possible. In other words, not even he has a very strong technical skills set, but also he is emotionally intelligent: all you can ask from a team leader. I am glad to work with him and to have a possibility to grow in a team led by Adeel.",
+        name: 'Atefe Fahimi',
+        company: 'Frontend Developer '
     },
+    
     {
         id: 5,
         image: '/avatar_4.jpeg',
