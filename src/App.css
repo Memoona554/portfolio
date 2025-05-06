@@ -1,5 +1,4 @@
 @import "tailwindcss";
 :root {
-  --px-theme-rgb: 7, 136, 255; /* Correct RGB format */
+  --px-theme-rgb: 7, 136, 255; 
 }
-

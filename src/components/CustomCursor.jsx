@@ -19,8 +19,8 @@ const CustomCursor = () => {
   useEffect(() => {
     const smoothMove = () => {
       setSmoothPosition(prev => {
-        const deltaX = (cursorPosition.x - prev.x) * 0.1; 
-        const deltaY = (cursorPosition.y - prev.y) * 0.1; 
+        const deltaX = (cursorPosition.x - prev.x) * 0.1;
+        const deltaY = (cursorPosition.y - prev.y) * 0.1;
 
         return {
           x: prev.x + deltaX,
@@ -29,7 +29,7 @@ const CustomCursor = () => {
       });
     };
 
-    const interval = setInterval(smoothMove, 16); 
+    const interval = setInterval(smoothMove, 16);
 
     return () => clearInterval(interval);
   }, [cursorPosition]);

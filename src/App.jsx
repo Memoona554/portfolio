@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-    <CustomCursor/>
+      <CustomCursor />
       <Header />
       <HomeSection />
       <div className='py-10 w-full bg-[#05294a]'>

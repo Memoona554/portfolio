@@ -20,7 +20,7 @@ function CompanyLogo() {
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((num) => (
           <SwiperSlide key={num}>
             <div className="relative mr-2" data-aos="fade-up"
-              data-aos-delay="400">
+              data-aos-delay="200">
               <img
                 loading="lazy"
                 src={`/com_${num}.jpeg`}

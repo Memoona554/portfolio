@@ -111,7 +111,7 @@ const ExperienceSection = () => {
     }, []);
 
     return (
-        <section  className="py-16 bg-[#05294a]" id="experience">
+        <section className="py-16 bg-[#05294a]" id="experience">
             <div className="container mx-auto px-4">
                 <div className="mb-12 ">
                     <h6
@@ -124,7 +124,7 @@ const ExperienceSection = () => {
 
                     </h6>
                     <h2 className="text-3xl uppercase font-space text-white md:text-4xl font-bold">
-                        My Work <span className="text-[#0788ff]">Experience</span>
+                        My Work <span className="text-[rgb(7,136,255)]">Experience</span>
                     </h2>
                 </div>
 

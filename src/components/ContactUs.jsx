@@ -13,24 +13,24 @@ const ContactUs = () => {
         setMessage('');
 
         emailjs.sendForm(
-            'service_68s635a',       
-            'template_sqk1gfe',      
+            'service_68s635a',
+            'template_sqk1gfe',
             formRef.current,
-            'xXn1aiv_qHXKGOjfs'        
+            'xXn1aiv_qHXKGOjfs'
         )
-        .then(() => {
-            setMessage(' Message sent successfully!');
-            
-            formRef.current.reset();
-            setTimeout(() => setMessage(''), 2000);
+            .then(() => {
+                setMessage(' Message sent successfully!');
 
-        }, (error) => {
-            console.error(error.text);
-            setMessage('❌ Failed to send message. Please try again.');
-            setTimeout(() => setMessage(''), 2000);
+                formRef.current.reset();
+                setTimeout(() => setMessage(''), 2000);
 
-        })
-        .finally(() => setIsSending(false));
+            }, (error) => {
+                console.error(error.text);
+                setMessage(' Failed to send message. Please try again.');
+                setTimeout(() => setMessage(''), 2000);
+
+            })
+            .finally(() => setIsSending(false));
     };
 
     return (
@@ -105,9 +105,8 @@ const ContactUs = () => {
                                     <button
                                         type="submit"
                                         disabled={isSending}
-                                        className={`w-full rounded-lg px-4 py-2 transition duration-300 ${
-                                            isSending ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700 text-white'
-                                        }`}
+                                        className={`w-full rounded-lg px-4 py-2 transition duration-300 ${isSending ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700 text-white'
+                                            }`}
                                     >
                                         {isSending ? 'Sending...' : 'Send Message'}
                                     </button>

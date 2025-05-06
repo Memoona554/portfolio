@@ -31,21 +31,9 @@ const projects = [
         country: 'Barcelona, Catalonia, Spain',
         liveUrl: 'https://getkombo.ai/',
     },
-    // {
-    //     id: 3,
-    //     title: 'Blendgate',
-    //     subtitle: 'B2B Market Network',
-    //     image: '/',
-    //     detailImage: '/',
-    //     description: `Blendgate is a next generation B2B marketplace to procure and manage technology consulting services for small and medium businesses.`,
-    //     type: 'Website',
-    //     languages: 'JS, MERN stack, Algorithms, Agile Methodologies,Front End Development',
-    //     platform: 'Custom ',
-    //     country: 'Barcelona, Catalonia, Spain',
-    //     liveUrl: 'www.example.com',
-    // },
+   
     {
-        id: 4,
+        id: 3,
         title: 'DexCheck',
         subtitle: 'B2B Market Network',
         image: '/pro_4.png',
@@ -57,21 +45,9 @@ const projects = [
         country: '....',
         liveUrl: 'https://dexcheck.ai/app',
     },
-    // {
-    //     id: 5,
-    //     title: 'Coinxpad',
-    //     subtitle: 'B2B Market Network',
-    //     image: '/...',
-    //     detailImage: '/...',
-    //     description: `CoinxPad is the first Cex / Dex Multi-chain IDO Launchpad. We raise funds for the just born crypto projects that are built on Ethereum, BSC, Solana, Polygon.`,
-    //     type: 'Website',
-    //     languages: ' MERN Stack · Solidity · Amazon Web Services (AWS) · Ethereum',
-    //     platform: 'Custom ',
-    //     country: '',
-    //     liveUrl: 'www.example.com',
-    // },
+    
     {
-        id: 6,
+        id: 4,
         title: 'XANA',
         subtitle: 'AI x Web 3.0 Metaverse',
         image: '/pro_6.png',
@@ -109,13 +85,13 @@ const RecentProjects = () => {
             <div className="container ml-auto mr-0 lg:w-[95%] w-full xl:w-[95%] px-4 py-8">
                 <div className="text-left">
                     <h6 data-aos="fade-up"
-                                data-aos-delay="100"><span className='bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md'>My Work</span></h6>
+                        data-aos-delay="100"><span className='bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md'>My Work</span></h6>
                     <h2 data-aos="fade-up"
-                                data-aos-delay="200" className="text-3xl text-white font-bold mt-2">RECENT PROJECT</h2>
+                        data-aos-delay="200" className="text-3xl text-white font-bold mt-2">RECENT PROJECT</h2>
                 </div>
 
                 <div className="full-width mt-8 " data-aos="fade-up"
-                                data-aos-delay="400">
+                    data-aos-delay="400">
                     <Swiper
                         spaceBetween={30}
                         slidesPerView={1}
@@ -128,7 +104,7 @@ const RecentProjects = () => {
                             1024: { slidesPerView: 3 },
                             1280: { slidesPerView: 4 },
                         }}
-                        className="!pb-20" 
+                        className="!pb-20"
                     >
                         {projects.map(project => (
                             <SwiperSlide key={project.id}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination,Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const testimonials = [
     {
@@ -32,7 +32,7 @@ const testimonials = [
         name: 'Atefe Fahimi',
         company: 'Frontend Developer '
     },
-    
+
     {
         id: 5,
         image: '/avatar_4.jpeg',
@@ -153,7 +153,7 @@ const testimonials = [
         name: 'Upwork Client',
         company: 'Blockchain / Solidity Developer (ERC5050)'
     },
-    
+
     {
         id: 22,
         image: '/images.jpg',
@@ -161,7 +161,7 @@ const testimonials = [
         name: 'Upwork Client',
         company: 'Development of Web3 social media Dapp'
     },
-   
+
     {
         id: 23,
         image: '/images.jpg',
@@ -188,7 +188,7 @@ const testimonials = [
 export default function TestimonialSection() {
     return (
         <section id='testimonial' className="relative container mx-auto 2xl:w-full   lg:py-16  effect-section" data-aos="fade-up"
-        data-aos-delay="100">
+            data-aos-delay="100">
             <div className=" lg:block hidden absolute top-[15%] left-[18%] w-[140px] animate-float z-0">
                 <img src="/effect-3.svg" alt="Effect" />
             </div>
@@ -197,12 +197,12 @@ export default function TestimonialSection() {
                 <div className="text-center mb-12">
                     <h6 className="mb-2">
                         <span data-aos="fade-up"
-                                data-aos-delay="100" className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">
+                            data-aos-delay="100" className="bg-[rgba(7,136,255,0.2)] text-white uppercase text-xs font-normal leading-5 tracking-[4px] py-1 px-3 rounded-md">
                             Testimonial
                         </span>
                     </h6>
                     <h2 data-aos="fade-up"
-                                data-aos-delay="200" className="text-3xl md:text-4xl font-bold text-white">
+                        data-aos-delay="200" className="text-3xl md:text-4xl font-bold text-white">
                         Over <span className="text-blue-500">70+</span> <br /> PEOPLE TRUST ME
                     </h2>
                 </div>
@@ -210,7 +210,7 @@ export default function TestimonialSection() {
                 <Swiper
                     spaceBetween={30}
                     slidesPerView={1}
-                    modules={[Pagination,Autoplay]}
+                    modules={[Pagination, Autoplay]}
                     autoplay={{ delay: 10000, disableOnInteraction: false }}
                     pagination={{ clickable: true }}
                     className="!pb-10"
